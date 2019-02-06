@@ -1,0 +1,12 @@
+site:
+  title: Veteranentreffen Wiki
+  # the 404 page and sitemap files only get generated when the url property is set
+  url: https://veteranentreffen.github.io
+content:
+  sources:
+  - url: ../werewolf-wiki/
+    branches: master
+ui:
+  bundle:
+    url: ./ui-bundle.zip
+    snapshot: true
